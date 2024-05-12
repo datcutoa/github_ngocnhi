@@ -1,0 +1,12 @@
+[gui]
+	recentrepo = C:/Users/Nguyen Tan Dat/testapp
+[filter "lfs"]
+	clean = git-lfs clean -- %f
+	smudge = git-lfs smudge -- %f
+	process = git-lfs filter-process
+	required = true
+[user]
+	name = datcutoa
+	email = nhuyentandat@gmail.com
+[core]
+	autocrlf = true
